@@ -95,7 +95,7 @@ const HeroHeader = () => {
           <a href="#projects" className="w-full sm:w-auto px-8 py-3 bg-primary text-textLight font-semibold rounded-lg hover:bg-accent transition-all duration-300 hover:-translate-y-1 glow-accent-hover cursor-pointer text-center">
             View Projects
           </a>
-          <a href={`${import.meta.env.BASE_URL}Ramya_Sree_Kodati_Resume.pdf`} download="Ramya_Sree_Kodati_Resume.pdf" className="w-full sm:w-auto px-8 py-3 border border-highlight text-highlight font-semibold rounded-lg hover:bg-highlight/10 transition-all duration-300 hover:-translate-y-1 cursor-pointer text-center">
+          <a href={`${import.meta.env.BASE_URL}Ramya_Sree_Kodati_Resume.txt`} download="Ramya_Sree_Kodati_Resume.txt" className="w-full sm:w-auto px-8 py-3 border border-highlight text-highlight font-semibold rounded-lg hover:bg-highlight/10 transition-all duration-300 hover:-translate-y-1 cursor-pointer text-center">
             Download Resume
           </a>
         </motion.div>
@@ -414,6 +414,16 @@ const ProjectCard = ({ project, index }) => {
 const ProjectsSection = () => {
   const projects = [
     {
+      title: "AI Scam Detection & Forensic Agent",
+      image: "/images/scam.png",
+      problem: "Detecting sophisticated scam intent and extracting malicious data (UPI, Banks, URLs) in real-time.",
+      solution: "Built an autonomous Gemini Pro agent with a FastAPI backend, IMAP integration, and a premium Streamlit dashboard.",
+      impact: 'Achieved <span class="text-highlight font-bold">real-time threat intelligence</span> with automated webhook reporting and cloud scalability via Docker.',
+      tags: [<SiFastapi />, <SiGooglecloud />, <SiPython />, <FaGithub />],
+      github: "https://github.com/Ramyasreekodati/spam-detection.git",
+      link: "https://spam-detection-agent.streamlit.app/"
+    },
+    {
       title: "Binance Trade Analytics Dashboard",
       image: "/images/binance.png",
       problem: "Analyzing high-frequency trading data to evaluate portfolio performance and detect anomalies.",
@@ -462,26 +472,6 @@ const ProjectsSection = () => {
       tags: [<SiPython />, <SiFlask />, <FaAws />],
       github: "#",
       link: null
-    },
-    {
-      title: "Plant Disease Detection",
-      image: "/images/plant.png",
-      problem: "Detecting and classifying agricultural diseases in Pepper Bell plants using image analysis.",
-      solution: "Developed and trained a robust CNN-based image classification model applying advanced data augmentation.",
-      impact: 'Reached <span class="text-highlight font-bold">72.8% accuracy</span> over 12 epochs, with a strategic roadmap for ResNet integration.',
-      tags: [<SiTensorflow />, <SiKeras />, <SiOpencv />],
-      github: "#",
-      link: null
-    },
-    {
-      title: "AI Scam Detection & Forensic Agent",
-      image: "/images/scam.png",
-      problem: "Detecting sophisticated scam intent and extracting malicious data (UPI, Banks, URLs) in real-time.",
-      solution: "Built an autonomous Gemini Pro agent with a FastAPI backend, IMAP integration, and a premium Streamlit dashboard.",
-      impact: 'Achieved <span class="text-highlight font-bold">real-time threat intelligence</span> with automated webhook reporting and cloud scalability via Docker.',
-      tags: [<SiFastapi />, <SiGooglecloud />, <SiPython />, <FaGithub />],
-      github: "https://github.com/Ramyasreekodati/spam-detection.git",
-      link: "https://spam-detection-agent.streamlit.app/"
     }
   ];
 
@@ -512,6 +502,30 @@ const ProjectsSection = () => {
     </section>
   );
 };
+
+function App() {
+  return (
+    <div className="bg-darkBg min-h-screen text-textLight font-sans selection:bg-highlight selection:text-darkBg">
+      <div className="fixed inset-0 z-0 pointer-events-none">
+        <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/20 via-darkBg to-darkBg"></div>
+      </div>
+      
+      <div className="relative z-10">
+        <HeroHeader />
+        <AboutSection />
+        <CoreExpertise />
+        <SkillsSection />
+        <ProjectsSection />
+        <BlogSection />
+        <CareerSection />
+        <EducationSection />
+        <CertificationsSection />
+        <CTASection />
+        <Footer />
+      </div>
+    </div>
+  );
+}
 
 const OrbitNode = ({ cat, x, y, isHovered, onHover, onLeave, isAnyHovered, index }) => {
   return (
@@ -1106,8 +1120,8 @@ const CTASection = () => {
             Contact Me
           </a>
           <a 
-            href={`${import.meta.env.BASE_URL}Ramya_Sree_Kodati_Resume.pdf`}
-            download="Ramya_Sree_Kodati_Resume.pdf"
+            href={`${import.meta.env.BASE_URL}Ramya_Sree_Kodati_Resume.txt`}
+            download="Ramya_Sree_Kodati_Resume.txt"
             className="px-8 py-4 rounded-full bg-white/5 border border-white/20 text-white font-bold text-lg hover:bg-white/10 hover:border-highlight/50 hover:-translate-y-1 transition-all duration-300 w-full sm:w-auto flex items-center justify-center gap-3"
           >
             View Resume <FiEye size={20} />
@@ -1131,29 +1145,5 @@ const Footer = () => {
     </footer>
   );
 };
-
-function App() {
-  return (
-    <div className="bg-darkBg min-h-screen text-textLight font-sans selection:bg-highlight selection:text-darkBg">
-      <div className="fixed inset-0 z-0 pointer-events-none">
-        <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/20 via-darkBg to-darkBg"></div>
-      </div>
-      
-      <div className="relative z-10">
-        <HeroHeader />
-        <AboutSection />
-        <CoreExpertise />
-        <SkillsSection />
-        <ProjectsSection />
-        <BlogSection />
-        <CareerSection />
-        <EducationSection />
-        <CertificationsSection />
-        <CTASection />
-        <Footer />
-      </div>
-    </div>
-  );
-}
 
 export default App;
