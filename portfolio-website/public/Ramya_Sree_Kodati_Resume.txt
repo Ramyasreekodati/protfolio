@@ -1,91 +1,307 @@
-RAMYA SREE KODATI
-Email: kodatiramyasri@gmail.com | Portfolio: https://ramyasreekodati.github.io/protfolio/
-Phone: +91 7287931192 | LinkedIn: linkedin.com/in/ramyask2025
-GitHub: github.com/Ramyasreekodati | Medium: medium.com/@ramyasreekodati
-
-CAREER SUMMARY
+RAMYA SREE KODATI 
+ 
+Email: kodatiramyasri@gmail.com  	 	 	  My Portfolio 
+Phone: +91 7287931192 
+LinkedIn: LinkedIn link 	 	 	 	 
+GitHub: GitHub link 
+Medium: Medium link 
+ 
+ Career Summary
 A motivated and adaptable graduate with a strong background in Statistics and business studies. Interested in using problem-solving and analytical thinking to handle real-world challenges while continuously learning and growing.
+━━━━━━━━━━━━━━━━━━━
+🧠 ABOUT SECTION (Top)
+Layout:
+Two-column layout (desktop), stacked (mobile)
+Left → Text content
+Right → Subtle animated visual (gradient orb / neural network animation)
+Content:
+Display the following text with clean typography, proper spacing, and fade-in animation:
+“I build intelligent systems that turn data into decisions.
+As an AI & Data Scientist, my work operates at the intersection of machine learning, statistics, and real-world complexity — where data is transformed into actionable intelligence. I design systems that interpret patterns, quantify uncertainty, assess risk, and automate decision-making.
+I approach problems as a system thinker — engineering end-to-end solutions from data preprocessing and statistical modeling to machine learning and scalable deployment.
+With a strong foundation in statistical modeling, machine learning, NLP, and computer vision, I build structured, high-performance solutions for real-world problems.
+Currently pursuing an MBA in Data Science, I combine technical expertise with business strategy to deliver impactful, scalable solutions.”
+Style:
+Highlight keywords (machine learning, statistics, NLP, MBA) with accent color
+Smooth fade-in text animation (line by line)
+Max width for readability
+━━━━━━━━━━━━━━━━━━━
+🚀 CORE EXPERTISE SECTION (Interactive)
+Title:
+“Core Expertise”
+Layout:
+Grid of square cards
+2 columns (mobile), 3 columns (desktop)
+Centered layout with spacing
+Each Card Design:
+Square shape (equal width & height)
+Glassmorphism effect (bg-white/10 + backdrop-blur)
+Rounded corners (2xl)
+Border glow using #2c7873
+Soft shadow
+Cards Content:
+Statistical Analysis & Predictive Modeling
+→ Forecasting, hypothesis testing, uncertainty quantification
+Machine Learning & Deep Learning
+→ Supervised learning, ensemble models, neural networks
+Natural Language Processing & Computer Vision
+→ Text intelligence, image recognition, AI perception
+Data Analysis, Visualization & Insight Generation
+→ EDA, dashboards, decision insights
+End-to-End ML Systems & Deployment
+→ Pipelines, APIs, scalable deployment
+━━━━━━━━━━━━━━━━━━━
+✨ INTERACTIONS (VERY IMPORTANT)
+Default:
+Cards slightly floating (slow up-down animation)
+Subtle glow
+On Hover:
+Scale up (1.05)
+Glow intensifies
+Inner content expands smoothly
+Reveal description text
+Add slight 3D tilt effect (optional)
+Animation:
+Use Framer Motion
+Smooth transitions (easeInOut)
+Stagger card entrance animation
+━━━━━━━━━━━━━━━━━━━
+🌊 OPTIONAL ENHANCEMENTS
+Add mouse-based parallax movement
+Add glowing cursor effect
+Add scroll-triggered animations
+Add background particles
+━━━━━━━━━━━━━━━━━━━
+🎯 GOAL
+Make this section feel like a modern AI product interface — not a resume.
+It should visually communicate:
+Strong foundation in statistics
+Advanced ML + AI capability
+System-level thinking
+Business + technical integration (MBA)
+The design should impress recruiters within 5–10 seconds.
+ 
+ Key Responsibilities 	 
+Data Mining & Preprocessing: Extracted and pre-processed structured and unstructured data for analytical use. 
+Predictive Modelling: Developed machine learning models and combined ensemble techniques for complex business solutions. 
+Data Visualization: Created insightful visualizations to support decision-making. 
+Pipeline Development: Built and maintained data processing and modeling pipelines. 
+ 
+ Create a portfolio skills section with floating interactive UI.
+Use particle background, orbital motion physics, and depth (z-index blur) for realism.
+Layout:
+- Center circular element labeled “Skills & Expertise”
+- Around it, floating skill category bubbles (like orbiting nodes)
+- Smooth animation (float, glow, hover scale)
 
-EDUCATION
+Skill Categories (left side floating):
+1. Data Science & AI
+   - Machine Learning
+   - Deep Learning (CNN, RNN, LSTM)
+   - Natural Language Processing (NLP)
+   - Computer Vision
 
-MBA in Data Science
-Manipal University, Jaipur | 2024 - 2026
-Pursuing advanced studies in Data Science and Business Analytics.
+2. Data Analysis
+   - Data Wrangling & Cleaning
+   - Exploratory Data Analysis (EDA)
+   - Statistical Modeling
+   - Data Mining
 
-B.Sc. in Mathematics, Statistics & Computer Science
-Hindu Degree College for Women, Hyderabad | 2021 - 2024
-Graduated with 87%
+3. Visualization
+   - Tableau, Power BI
+   - Matplotlib, Seaborn
+   - Excel Dashboards
 
-Intermediate (MPC)
-Narayana Junior College, Hyderabad | 2019 - 2021
-Graduated with 93%
+4. Deployment & Workflow
+   - ML Pipelines
+   - Flask API Deployment
 
-SSC
-Sri Sai Chaitanya Techno High School, Hyderabad | 2018 - 2019
-Graduated with 87%
+Behavior:
+- Each category appears as a glowing floating card
+- Cards slowly move (floating effect like particles)
+- On hover → expand and show sub-skills
+- Smooth transitions using Framer Motion
 
-SKILLS SUMMARY
-• Languages: Python, SQL
-• Frameworks: NumPy, Pandas, SciPy, Scikit-learn, XGBoost, TensorFlow, Keras, NLTK, OpenCV
-• Tools: Tableau, Power BI, Excel, Matplotlib, Seaborn, Plotly
-• Platforms: Antigravity, Jupyter, VS Code, Git, Streamlit
-• Soft Skills: Strong Analytical Skills, Self-Learning, Detail-Oriented, Adaptable, Problem Solving
-• Other: Typing speed: 35 wpm
+Tools Section (bottom horizontal scroll like carousel):
+- Show tools as rounded glowing chips/icons
+- Auto-moving infinite scroll (left to right loop)
+- Pause on hover
 
-PROJECTS
+Tools List:
+Python, SQL,
+NumPy, Pandas, SciPy, Scikit-learn, XGBoost,
+TensorFlow, Keras,
+NLTK, OpenCV,
+Matplotlib, Seaborn, Plotly,
+MySQL, PostgreSQL,
+Jupyter, Anaconda, VS Code, Git, GitHub,
+Flask, FastAPI, PySpark,
+AWS (S3, EC2), Google Cloud
 
-AI Scam Detection & Forensic Agent
-GitHub: https://github.com/Ramyasreekodati/spam-detection.git | App: https://spam-detection-agent.streamlit.app/
-• AI Scam Detection: Built an autonomous agent using Gemini Pro to detect scam intent and extract malicious data (UPI, Banks, URLs) in real-time.
-• Backend & Integration: Developed a FastAPI engine with IMAP email integration and automated webhook reporting for instant threat intelligence.
-• Security Dashboard: Created a premium Streamlit UI for live risk monitoring, forensic deep-dives, and automated activity tracking.
-• Docker & Cloud: Containerized with Docker and deployed via GitHub Actions to Hugging Face for automated CI/CD and cloud scalability.
+Tech Requirements:
+- React + Tailwind CSS
+- Framer Motion for animation
+- Fully responsive
+- Glassmorphism + glow effects
+- Dark gradient background (blue/purple)
+
+Style:
+- Futuristic, clean, minimal
+- Soft neon glow
+- Smooth micro-interactions 
+ Projects 	 	 	 
+ 
+Agentic Honey-Pot for Scam Detection & Intelligence Extraction:
+github like : https://github.com/Ramyasreekodati/spam-detection
+web app like: https://spam-detection-agent.streamlit.app/
+
+AI Scam Detection: Built an autonomous agent using Gemini Pro to detect scam intent and extract malicious data (UPI, Banks, URLs) in real-time.
+Backend & Integration: Developed a FastAPI engine with IMAP email integration and automated webhook reporting for instant threat intelligence.
+Security Dashboard: Created a premium Streamlit UI for live risk monitoring, forensic deep-dives, and automated activity tracking.
+Docker & Cloud: Containerized with Docker and deployed via GitHub Actions to Hugging Face for automated CI/CD and cloud scalability.
+
 
 Binance Trade Analytics Dashboard
-GitHub: https://github.com/Ramyasreekodati/binance-trade-analysis.git | App: https://binanace-trade-analysis.streamlit.app/
-• Built an automated data pipeline to process and analyze high-frequency Binance trading data across 149 portfolios.
-• Developed a metrics engine to compute Sharpe Ratio, Maximum Drawdown, Volatility, Profit Factor, and Trade Expectancy.
-• Identified high-performing portfolios, including one generating +$71K PnL across 6K+ trades.
-• Implemented anomaly detection using Z-score modeling and fee analysis to flag risky or suspicious trading behavior.
+Python, Pandas, Data Analysis, Financial Metrics, Data Visualization
+Built an automated data pipeline to process and analyze high-frequency Binance trading data across 149 portfolios 
+Developed a metrics engine to compute Sharpe Ratio, Maximum Drawdown, Volatility, Profit Factor, and Trade Expectancy 
+Identified high-performing portfolios, including one generating +$71K PnL across 6K+ trades 
+Implemented anomaly detection using Z-score modeling and fee analysis to flag risky or suspicious trading behavior 
+Designed an overtrading detection system to identify excessive trade activity (>20 trades/hour) 
+Performed time-based and asset-level analysis to uncover optimal trading periods and instruments 
+Ensured robustness by handling missing data, NaN values, and division errors for reliable outputs 
+Enabled fast, scalable reporting for decision-making on risk vs. profitability 
 
-AI Education Loan Underwriting & Career Risk
-GitHub: https://github.com/Ramyasreekodati/Career-Success-Risk-Modeling.git | App: https://career-success-risk-modeling-njveqfuhy6xv5r2yvxm87w.streamlit.app/
-• Built an end-to-end ML pipeline integrating academic and market data to assess career and financial risk.
-• Developed dual-model system: XGBoost (86% accuracy) for placement prediction and LightGBM (R²: 0.989) for salary forecasting.
-• Engineered DTI-based risk model (35% threshold) to evaluate loan eligibility and repayment capacity.
-• Designed automated underwriting engine for decision classification (Approved/Conditional/Rejected).
+
+github link: https://github.com/Ramyasreekodati/binance-trade-analysis.git
+app link : https://binanace-trade-analysis.streamlit.app/
+
+AI Education Loan Underwriting & Career Risk Platform
+Python, XGBoost, LightGBM, Pandas, ML, Streamlit
+Built an end-to-end ML pipeline integrating academic + market data to assess career and financial risk 
+Developed dual-model system: XGBoost (86% accuracy, F1: 0.86) for placement prediction and LightGBM (R²: 0.989, MAE: ₹15.9K) for salary forecasting 
+Engineered DTI-based risk model (35% threshold) to evaluate loan eligibility and repayment capacity 
+Designed automated underwriting engine for decision classification (Approved / Conditional / Rejected / Manual Review) 
+Implemented risk-based pricing (8–18%) based on predicted default risk 
+Built scalable CSV batch processing for thousands of applicants across market scenarios 
+Generated AI-driven explainability reports ensuring transparency and auditability
+
+
+github: https://github.com/Ramyasreekodati/Career-Success-Risk-Modeling.git
+app link: https://career-success-risk-modelinggit-njveqfuhy6xv5r2yvxm87w.streamlit.app/
+
 
 AI Proctored Interview & Evaluation System
-GitHub: https://github.com/Ramyasreekodati/AI-Autonomous-Interview-System.git | App: https://ai-interview-room.streamlit.app/
-• Built AI-driven interview platform combining computer vision and NLP for automated candidate evaluation.
-• Engineered proctoring using MediaPipe (468 landmarks) with gaze tracking and stress detection.
-• Designed 100-point penalty system with risk classification and integrated 70/30 scoring.
-• Developed secure backend (FastAPI + JWT, SQLite, SQLAlchemy) and responsive frontend (React + Tailwind).
+Python, FastAPI, React, OpenCV, MediaPipe, NLP, SQLAlchemy
+Built AI-driven interview platform combining computer vision + NLP for automated candidate evaluation 
+Engineered proctoring using MediaPipe (468 landmarks) with gaze tracking (0.46–0.54) and stress detection (<0.04 ratio) 
+Designed 100-point penalty system with risk classification (>40 → High-risk fail) and integrated 70/30 scoring (technical + behavior) 
+Implemented NLP evaluation using keyword matching (7–8 keywords) and answer-length scoring (>300 chars) 
+Developed secure backend (FastAPI + JWT, SQLite, SQLAlchemy) and responsive frontend (React + Tailwind) for real-time processing 
+Achieved ~100% detection accuracy for cheating behaviors (phone, multiple faces, off-screen gaze), reducing manual interview workload via automated dashboards 
 
-Wine Quality Prediction (ML Project)
-• Designed an end-to-end machine learning pipeline to predict wine quality based on physicochemical properties.
-• Implemented and fine-tuned an Elastic Net model, balancing L1 and L2 regularization for optimal performance.
-• Deployed an interactive web app using Flask API on Render for real-time predictions.
 
-Flight Price Prediction (ML Project)
-• Developed a machine learning model to predict flight ticket prices based on temporal features and airline data.
-• Achieved best performance using Random Forest (R² Score: 0.823).
-• Deployed the model using Flask API on AWS/Render for real-time forecasting.
+github link: https://github.com/Ramyasreekodati/AI-Autonomous-Interview-System.git
+applink: https://ai-interview-room.streamlit.app/
 
-Plant Disease Detection (Deep Learning)
-• Designed and implemented a CNN-based image classification model to detect diseases in Pepper Bell plants.
-• Achieved 72.8% accuracy over 12 epochs using TensorFlow/Keras and OpenCV.
+Wine Quality Prediction Project (DATA ANALYSIS):  	GitHub 
+ 
+Designed an end-to-end machine learning pipeline to predict wine quality based on physicochemical properties like pH, acidity, sugar, and alcohol content. 
+Data Cleaning & Preprocessing: Addressed missing values, scaled numerical features, and encoded categorical labels for quality prediction. 
+Exploratory Data Analysis (EDA): Visualized trends and relationships between features like alcohol content and wine quality using Matplotlib and Seaborn. 
+Model Development: Implemented and fine-tuned an Elastic Net model for prediction, balancing L1 (Lasso) and L2 (Ridge) regularization to achieve optimal performance (accuracy: X%, F1-score: Y). 
+Model Deployment: Created an interactive web app using Flask API, hosted on 
+Render, enabling real-time wine quality predictions based on user input. 
+End-to-end Expertise: Demonstrated skills in data preprocessing, feature engineering, regularization techniques, and web deployment, integrating the entire workflow seamlessly. 
+ 
+Flight Price Prediction Project (ML PROJECT): 	GitHub 
+ 
+Developed a machine learning model to predict flight ticket prices based on features like date, time, stops, duration, and airline. 
+Conducted data preprocessing by splitting date and time features, encoding categorical variables, and creating new features like total duration in minutes. 
+Performed Exploratory Data Analysis (EDA) to uncover trends and relationships between price and factors such as stops and airlines. 
+Implemented and compared multiple models, achieving the best performance using Random Forest with Key Metrics: R² Score: 0.82366, RMSE: 1834.38, MAE: 1226.33, MAPE: 13.82%. Performed feature engineering and data preprocessing to handle categorical and numerical variables. 
+Fine-tuned hyperparameters (max_depth=21, max_features='sqrt', min_samples_split=10, n_estimators=540). 
+Deployed the model using Flask API on AWS/Render for real-time predictions. 
+Demonstrated end-to-end project skills from data cleaning to model deployment, showcasing expertise in Python, machine learning, and cloud platforms. 
+ 
+Plant Disease Detection (DEEP LEARNING): 	GitHub 
+ 
+Designed and implemented a CNN-based image classification model to detect diseases in Pepper Bell plants. 
+Trained the model on labeled plant images, achieving 72.8% accuracy over 12 epochs with a loss of 5.90. 
+Applied image preprocessing techniques to improve model generalization, including rescaling, augmentation, and normalization.   
+Identified key areas for enhancement: 
+Increasing epochs for better convergence o 	Applying data augmentation to improve diversity 
+Optimizing learning rate and adding dropout to prevent overfitting o 	Exploring deeper CNN architectures like ResNet and MobileNetV2 for higher accuracy. 
+Tech Stack: TensorFlow/Keras, OpenCV, Python (NumPy, Pandas).
 
-STRENGTHS
-• Strong Analytical Skills
-• Self-Learning and Continuous Improvement
-• Detail-Oriented and Patient
-• Adaptable and Quick Learner
 
-EXTRACURRICULAR ACTIVITIES
-• Educational Support and Tutoring for local children.
-• Science Fair Participation (Math Tricks).
-• Competed in drawing and essay writing competitions.
+hackathons participation: 
 
-DECLARATION
-I hereby declare that the information provided above is true and accurate to the best of my knowledge.
+give space for this I will implement this 
+
+ 
+Certifications 
+Artificial Intelligence by Nirmaan 
+Google certification in Data Analytics 
+Google Prompting Essentials 
+Education 
+ 
+MBA in Data Science 
+Manipal University, Jaipur | 2024-2026 
+ 
+B.Sc. in Mathematics, Statistics, and Computer Science (MSCS) 
+Hindu Degree College for Women, Hyderabad | 2021 - 2024 Percentage: 87% 
+ 
+Intermediate (MPC) 
+Narayana Junior College, Hyderabad | 2019 - 2021 Percentage: 93% 
+ 
+SSC 
+Sri Sai Chaitanya Techno High School, Hyderabad | 2018 - 2019 Percentage: 87% 
+ 
+Strengths 
+Strong Analytical Skills 
+Self-Learning and Continuous Improvement 
+Detail-Oriented and Patient 
+Adaptable and Quick Learner 
+ 
+Extracurricular Activities 	 
+Educational Support and Tutoring for local children. 
+Science Fair Participation (Math Tricks). 
+Competed in drawing and essay writing competitions. 
+ 
+Blogs 
+https://medium.com/@ramyasreekodati/list-of-important-interview-questions-on-statistics-for-data-science-3f56bff10ff3
+https://medium.com/@ramyasreekodati/mastering-statistical-concepts-for-data-science-interviews-a-comprehensive-guide-part-2-cf76b90e202b
+https://medium.com/@ramyasreekodati/navigating-the-data-science-landscape-a-curated-list-of-essential-libraries-ad458d48705f
+https://medium.com/@ramyasreekodati/15-essential-kaggle-datasets-to-master-data-science-as-a-beginner-c933ceb01468
+https://medium.com/@ramyasreekodati/introduction-to-data-science-what-you-need-to-know-e0f2fcbc9a7c
+https://medium.com/@ramyasreekodati/the-role-of-statistics-in-data-science-a2c01ecb335d
+https://medium.com/@ramyasreekodati/building-a-data-science-project-from-the-ground-up-381c7d37d5ab
+https://medium.com/@ramyasreekodati/essential-python-concepts-for-interviews-definitions-formulas-and-common-questions-20b2032141d3
+https://medium.com/@ramyasreekodati/regression-metrics-7d6339f73c5e
+https://medium.com/@ramyasreekodati/importance-of-statistics-f73ee6c5068d
+https://medium.com/@ramyasreekodati/the-six-steps-of-the-data-analysis-c21179298efe
+https://medium.com/@ramyasreekodati/six-common-problem-types-a270a0241508
+https://medium.com/@ramyasreekodati/ranking-and-analyzing-trading-accounts-using-a-weighted-scoring-system-a25c9c347114
+https://medium.com/@ramyasreekodati/heat-maps-e008c860dd92
+https://medium.com/@ramyasreekodati/scatter-plots-74999c208dd3
+https://medium.com/@ramyasreekodati/pie-charts-8ac9f1aaee6a
+https://medium.com/@ramyasreekodati/line-plots-0f4556de0f34
+https://medium.com/@ramyasreekodati/tree-maps-17fff9a7883f
+https://medium.com/@ramyasreekodati/understanding-box-plots-a-03a80ff1b332
+https://medium.com/@ramyasreekodati/excel-for-data-analysis-ff95040f6ee7
+https://medium.com/@ramyasreekodati/histogram-plot-46dbbf08de32
+https://medium.com/@ramyasreekodati/bar-chart-d82ea9fac207
+https://medium.com/@ramyasreekodati/confusion-matrix-and-performance-metrics-for-classification-1d5e1700e0b6
+https://medium.com/@ramyasreekodati/understanding-bias-and-variance-in-machine-learning-a-simple-and-visual-guide-1c9f4694c113
+https://medium.com/@ramyasreekodati/discovering-pythons-oop-magic-an-engaging-story-ecef1bb24420
+https://medium.com/@ramyasreekodati/descriptive-and-inferential-statistics-867f3a010128
+https://medium.com/@ramyasreekodati/what-is-linear-regression-e5d8e0d7346c
+https://medium.com/@ramyasreekodati/one-hot-encoding-60d949a71fe6
+https://medium.com/@ramyasreekodati/the-hilltop-haven-a-tale-of-resilience-and-hope-17d61f9ca2f5
+https://medium.com/@ramyasreekodati/six-common-problem-types-a270a0241508
+https://medium.com/@ramyasreekodati/from-issue-to-action-the-six-data-analysis-phases-4c1b76d53bb6
+Declaration 
+ 
+With this, I declare that the information provided above is true and accurate to the best of my knowledge. 
+ 
