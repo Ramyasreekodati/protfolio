@@ -338,7 +338,7 @@ const ProjectCard = ({ project, index }) => {
       {/* Background Image Container */}
       <div className="absolute inset-0 z-0 overflow-hidden">
         <img 
-          src={project.image} 
+          src={project.image.startsWith('http') ? project.image : `${import.meta.env.BASE_URL}${project.image.startsWith('/') ? project.image.slice(1) : project.image}`} 
           alt={project.title}
           className="w-full h-full object-cover transition-transform duration-700 ease-[cubic-bezier(0.25,0.46,0.45,0.94)] group-hover:scale-[1.08]"
         />
@@ -865,7 +865,7 @@ const BlogSection = () => {
             >
               <div className="relative h-56 overflow-hidden border-b border-white/5 shrink-0">
                 <img 
-                  src={blog.image} 
+                  src={blog.image.startsWith('http') ? blog.image : `${import.meta.env.BASE_URL}${blog.image.startsWith('/') ? blog.image.slice(1) : blog.image}`} 
                   alt={blog.title} 
                   loading="lazy"
                   className="w-full h-full object-cover transition-transform duration-700 ease-[cubic-bezier(0.25,0.46,0.45,0.94)] group-hover/card:scale-[1.08]"

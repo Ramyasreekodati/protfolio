@@ -20,13 +20,13 @@ export const blogsData = [
   {
     "title": "15 Essential Kaggle Datasets To Master Data Scienc...",
     "insight": "A curated collection of datasets to practice everything from regression to computer vision tasks.",
-    "image": "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?q=80&w=1470&auto=format&fit=crop",
+    "image": "images/blog_kaggle.png",
     "link": "https://medium.com/@ramyasreekodati/15-essential-kaggle-datasets-to-master-data-science-as-a-beginner-c933ceb01468"
   },
   {
     "title": "Introduction To Data Science What You Need To Know",
     "insight": "A detailed exploration of introduction to data science what you need to know with practical examples.",
-    "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?q=80&w=1470&auto=format&fit=crop",
+    "image": "images/blog_intro.png",
     "link": "https://medium.com/@ramyasreekodati/introduction-to-data-science-what-you-need-to-know-e0f2fcbc9a7c"
   },
   {
@@ -38,13 +38,13 @@ export const blogsData = [
   {
     "title": "Building A Data Science Project From The Ground Up",
     "insight": "A detailed exploration of building a data science project from the ground up with practical examples.",
-    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1470&auto=format&fit=crop",
+    "image": "images/blog_analysis.png",
     "link": "https://medium.com/@ramyasreekodati/building-a-data-science-project-from-the-ground-up-381c7d37d5ab"
   },
   {
     "title": "Essential Python Concepts For Interviews Definitio...",
     "insight": "A detailed exploration of essential python concepts for interviews definitio... with practical examples.",
-    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=1470&auto=format&fit=crop",
+    "image": "images/blog_python.png",
     "link": "https://medium.com/@ramyasreekodati/essential-python-concepts-for-interviews-definitions-formulas-and-common-questions-20b2032141d3"
   },
   {
@@ -110,7 +110,7 @@ export const blogsData = [
   {
     "title": "Understanding Box Plots A",
     "insight": "A detailed exploration of understanding box plots a with practical examples.",
-    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1515&auto=format&fit=crop",
+    "image": "images/blog_stats.png",
     "link": "https://medium.com/@ramyasreekodati/understanding-box-plots-a-03a80ff1b332"
   },
   {
